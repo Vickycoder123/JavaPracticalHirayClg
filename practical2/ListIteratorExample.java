@@ -14,7 +14,7 @@ public class ListIteratorExample{
 		al.add("Grapes");
 		al.add("Strawberry");
 		ListIterator<String> litr = al.listIterator();
-		System.out.println("Printing the list items using for-each loop");
+		System.out.println("Printing the list items using ListIterator in forward direction");
 		while(litr.hasNext()){
 			System.out.println("List element is: "+litr.next());
 		}

@@ -4,7 +4,7 @@
 
 package practical5;
 
-class LambdaEx{
+public class LambdaEx{
 	public static void main(String args[]){
 		Greeting greeting = ()->System.out.println("Hello World");
 		greeting.greet();
